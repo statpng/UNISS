@@ -1,0 +1,16 @@
+Package: uniss
+Title: Unified Selection Score for Multi-Trait Analysis
+Version: 1.0.0
+Date: 2022-09-14
+Authors@R: c(person("Kipoong", "Kim", email = "kkp7700@gmail.com", role = c("aut", "cre")),
+            person("Hokeun", "Sun", email = "hsun@pusan.ac.kr", role = c("aut")))
+Author: Kipoong Kim [aut, cre],
+  Hokeun Sun [aut]
+Maintainer: Kipoong Kim <kkp7700@gmail.com>
+Description: New statistical selection method for pleiotropic variants associated with both quantitative and qualitative traits, based on a penalized regression and resampling approach. The proposed method first computes the unified selection score of individual variants and then ranked them from largest to smallest. With the cut-off value of the unified selection score, we can select a certain number of variants, controlling the number of false discoveries. Methods used in the package refer to Kim, K., Jun, T., Wang, S., & Sun, H. (2022). New statistical selection method for pleiotropic variants associated with both quantitative and qualitative traits. Bioinformatics, submitted.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: glmnet, stats
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+NeedsCompilation: yes
